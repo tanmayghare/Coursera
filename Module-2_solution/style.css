@@ -4,15 +4,15 @@
 		}
 		h1 {
 			text-align: center;
-			font-family: Helvetica;
+            font-family: Helvetica;
+            margin-bottom: 40px;
 		}
 		p {
-			margin: 2px;
+			margin: 5px;
 			padding: 5px;
 		}
 		section {
 			position: relative;
-			font-style: italic;
 			background-color: lightgray;
 			border: 1px solid black;
 			overflow: auto;
@@ -21,11 +21,13 @@
 
 		.title {
 			font-family:"Arial Black", Gadget, sans-serif;
-			position: relative;
+            position: relative;
+            width: 30%;
+            text-align: center;
             float: right;
-            clear: left;
 			border-left: 1px solid black;
-			border-bottom: 1px solid black;
+            border-bottom: 1px solid black;
+            
 		}
 
 		#color1 {
@@ -35,7 +37,7 @@
 			background-color: blue;
 		}
 		#color3 {
-			background-color: purple;
+			background-color: lightgreen;
 		}
 		@media (min-width: 992px){
 			#p1 {
