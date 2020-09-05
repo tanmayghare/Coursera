@@ -7,7 +7,7 @@
 			font-family: Helvetica;
 		}
 		p {
-			margin: 0px;
+			margin: 2px;
 			padding: 5px;
 		}
 		section {
@@ -22,7 +22,8 @@
 		.title {
 			font-family:"Arial Black", Gadget, sans-serif;
 			position: relative;
-			float: right;
+            float: right;
+            clear: left;
 			border-left: 1px solid black;
 			border-bottom: 1px solid black;
 		}
